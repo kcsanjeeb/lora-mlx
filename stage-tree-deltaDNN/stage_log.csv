@@ -1,0 +1,5 @@
+trial,stage_idx,iters,lr,runtime_sec,cache_hit,cache_miss,adapter_path,size_full_bytes,size_delta_bytes,compression_ratio_full_over_delta,prefix_key,wall_start,wall_end,fastcdc_chunks
+A_lr1e-5_then_5e-5,1,50,1e-05,650.219,0,1,./stage_cache/233ac6dad23f2688/adapters.npz,3427734,0,1.0,233ac6dad23f2688,2025-09-20T20:37:06,2025-09-20T20:37:06,
+A_lr1e-5_then_5e-5,2,50,5e-05,687.578,0,1,./stage_cache/6957581b2bb3213e/adapters.npz,3424918,1723798,1.9868441661958072,6957581b2bb3213e,2025-09-20T20:48:33,2025-09-20T20:48:33,
+B_lr1e-5_then_3e-5,1,50,1e-05,0.0,1,0,./stage_cache/233ac6dad23f2688/adapters.npz,3427734,0,1.0,233ac6dad23f2688,2025-09-20T20:48:33,2025-09-20T20:48:33,
+B_lr1e-5_then_3e-5,2,50,3e-05,632.073,0,1,./stage_cache/aa5051b0d4f20a46/adapters.npz,3424918,1723798,1.9868441661958072,aa5051b0d4f20a46,2025-09-20T20:59:05,2025-09-20T20:59:05,
